@@ -1,0 +1,53 @@
+nav {
+    padding: 1rem;
+    background-color: #242424;
+    flex-shrink: 0;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between; /*espaç entre as 2 divs da nav*/
+  }
+  
+  ul li {
+    list-style: none; /*p tirar as bolinhas*/
+    display: flex;
+    align-items: center;
+  }
+  
+  ul li img {
+    width: 6rem; /*size do logo Hary Potter*/
+    padding: 0;
+  }
+
+  .nav-links {
+        display: flex; /*p ficarem de lado na horizontal*/
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    transition: all .3s ease-in-out; /* p ficar levinho o hover */
+}
+
+.nav-links a:hover{
+    color: #fbba0b;
+}
+
+.nav-title {
+    display: flex;
+}
+
+h1 { /* Título: Personagem do Harry Potter */
+    padding: 0;
+    font-size: 1.8rem;
+    color: #fbba0b;
+}
+
+@media (max-width: 955px) { /*responsivity*/
+    h1{
+        display: none; /*some com o h1 qdo screen for menor que 955*/
+    }
+}

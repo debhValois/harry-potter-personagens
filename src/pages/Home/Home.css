@@ -1,0 +1,34 @@
+.cards-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5rem 15rem;
+}
+
+.button-create{
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem 2rem 0 0;
+}
+
+.button-create button {
+  background-color: transparent;
+  color: #fbba0b;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  border: 1px solid #fbba0b;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  transition: all .3s ease-in-out;
+}
+
+.button-create button:hover {
+  background-color: #fbba0b;
+  color: #181818;
+}
+@media (max-width: 955px) {
+  .cards-home {
+    margin: 0;
+  }
+}

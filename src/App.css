@@ -1,0 +1,39 @@
+.overley-react-modal{
+    background-color: #00000090;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-react-modal{
+    width: 100%;
+    max-width: 500px;
+    background-color: #1a1a1a;
+    padding: 3rem;
+    position: relative;
+    border-radius: 0.5rem;
+}
+
+.close-modal-button{
+    background-color: transparent;
+    color: #fff;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+    transition: all .3s ease-in-out;
+}
+
+.close-modal-button:hover{
+    color: #fbba0b;
+}

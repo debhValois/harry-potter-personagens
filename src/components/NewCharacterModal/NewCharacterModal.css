@@ -1,0 +1,38 @@
+.content-react-modal h2{
+    padding-bottom:  1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+form input{
+    padding: 0.5rem;
+    outline: none;
+    border: 1px solid #4e4e4e;
+    border-radius: 0.2rem;
+    margin-bottom: .8rem;
+}
+
+form button.new-character{
+    display: flex;
+    justify-content: center;
+
+    background-color: transparent;
+    color: #fbba0b;
+    padding: .7rem;
+    font-size: 1.1rem;
+    border: 1px solid #fbba0b;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: .2rem;
+
+    transition: all .3s ease-in-out;
+}
+
+form button.new-character:hover{
+    background-color: #fbba0b;
+    color: #181818;
+}

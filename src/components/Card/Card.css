@@ -1,0 +1,68 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25rem;
+  padding: 1.5rem;
+  box-shadow: #00000080 0px 3px 8px;
+  margin: 0.5rem;
+  transform: scale(0.9);
+  transition: all 0.3s ease-in-out;
+  background: transparent;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1);
+}
+
+.card img {
+  width: 30%;
+  border-radius: 0.5rem;
+}
+
+.card-text {
+  padding-left: 1.5rem;
+}
+
+.card-actor {
+  padding-top: 6.5rem;
+}
+
+/* ATRIBUTO DO INPUT = ENVOLVER EM [ ] */
+[data-tooltip]{
+  position: relative;
+}
+
+[data-tooltip]:after{
+  display: none;
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  padding: .6rem;
+  border-radius: 3px;
+  content: attr(data-tooltip); /* FILHO: "CLIQUE NO CARD PARA... */
+  background-color: #fbba0b;
+  color: #242424;
+  font-weight: bold;
+}
+
+[data-tooltip]:hover:after {
+  display: block;
+}
+
+@media (max-width: 955px) {
+  .card-title {
+    font-size: 3rem;
+  }
+  .card img{
+      width: 100%;
+  }
+  .card-house{
+      font-size: 2rem;
+  }
+  .card-actor{
+      padding: 1rem 0 0 0;
+      font-size: 1.5rem;
+  }
+}

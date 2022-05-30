@@ -1,0 +1,19 @@
+footer {
+    padding: 3rem;
+    background-color: #242424;
+    flex-shrink: 0;
+  }
+  footer p {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+  }
+  
+  footer p a {
+    text-decoration: none;
+    color: #fbba0b;
+  }
+  
+  footer p a:hover {
+    color: #fffbbd;
+  }
